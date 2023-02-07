@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/darkness-1.jpg);
+    background-size: cover;
+    margin: 25px;
+}
+
+.background-image {
+    opacity: 0.1;
+}
+
+.container {
+    width: auto;
+}
+
+header {
+    background-color: #a16a4848, 0.3;
+    color:#d1beb3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Elsie', cursive;
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+nav li {
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color:#d1beb3;
+}
+
+a:hover {
+    opacity: 0.5;
+    color: #c86023;
+}
+
+h2 {
+    margin-top: 30px;
+    font-family: 'Elsie', cursive;
+}
+
+h4 {
+    margin-top: 30px;
+    font-family: 'Elsie', cursive;
+}
+
+p {
+    font-family:'Times New Roman';
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+ul {
+    color:#d1beb3;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Main Section */
+
+#aboutMe {
+    font-family: 'Elsie', cursive;
+}
+
+#portfolioPic {
+    left: 20px;
+    right: 20px;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#aboutMeSection {
+    margin-top: 35px;
+    color: #d1beb3;
+    text-size-adjust: 12px;
+}
+
+#taskmanager {
+    height: 600px;
+    width: 500px;
+    margin-right: 100px;
+}
+
+#wheel {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+#contactMe {
+    margin-bottom: 20px;
+}
+
+#contact-icons {
+    color: #d1beb3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#hoveremail {
+    visibility: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#email:hover ~ #hoveremail {
+    visibility: visible;
+}
+
+#hoverlinkedin {
+    visibility: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#linkedin:hover ~ #hoverlinkedin {
+    visibility: visible;
+}
+
+#hovergithub {
+    visibility: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#github:hover ~ #hovergithub {
+    visibility: visible;
+}
+
+#hoverresume {
+    visibility: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#resume:hover ~ #hoverresume {
+    visibility: visible;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    figure {
+        width: 400px;
+    }
+}
